@@ -37,7 +37,7 @@
   background-color: rgb(233, 90, 8);
   padding: 26px 50px;
   border: none;
-  color:white;
+  color: white;
 }
 
 /* nav styles */
@@ -148,6 +148,7 @@
   .banner {
     flex-direction: column-reverse;
     padding-top: 0;
+    margin-bottom: 65px;
   }
   .banner-title {
     font-size: 24px;
@@ -160,5 +161,40 @@
   .banner-left {
     max-width: 360px;
     margin: auto;
+  }
+
+  /* our plants */
+  .our-plants {
+    margin-bottom: 41.5px;
+  }
+  .our-plants-title {
+    font-size: 24px;
+  }
+  .our-plants-description {
+    font-size: 14px;
+    margin-bottom: 28px;
+    max-width: 336px;
+    height: 68px;
+    text-align: center;
+  }
+  .our-plants-cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 14px;
+    margin-right: 17px;
+  }
+  .plant-card img {
+    width: 100%;
+  }
+  .plant-card-title {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .plant-card-price {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .plant-card-button {
+    padding: 20px 30px;
   }
 }
