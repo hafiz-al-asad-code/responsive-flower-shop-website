@@ -148,6 +148,103 @@
   margin-left: 33px;
 }
 
+/* latest deals section */
+.left-image-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../images/deal-bloom.png");
+  background-size: cover;
+  border-radius: 10px;
+  width: 366px;
+  height: 206px;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 19px;
+}
+.left-image-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../images/deal-ana.png");
+  background-size: cover;
+  border-radius: 10px;
+  width: 366px;
+  height: 206px;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 19px;
+}
+.latest-deals-images-right {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../images/deal-zabo.png");
+  background-size: cover;
+  border-radius: 20px;
+  width: 753px;
+  height: 437px;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.latest-deals-images {
+  display: flex;
+  gap: 28px;
+}
+.left-image-1-title {
+  font-size: 20px;
+  font-family: 700;
+  color: white;
+}
+.left-image-1-subtitle {
+  font-size: 16px;
+  font-family: 600;
+  color: white;
+  text-decoration: underline;
+}
+.left-image-2-title {
+  font-size: 20px;
+  font-family: 700;
+  color: white;
+}
+.left-image-2-subtitle {
+  font-size: 16px;
+  font-family: 600;
+  color: white;
+  text-decoration: underline;
+}
+.right-image-title {
+  font-size: 40px;
+  font-family: 700;
+  color: white;
+}
+.right-image-subtitle {
+  font-size: 28px;
+  font-family: 600;
+  color: white;
+  text-decoration: underline;
+}
+.latest-deals-images-left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.latest-deals {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.latest-deals-subtitle {
+  max-width: 888px;
+  margin-top: 16px;
+  margin-bottom: 121px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
   /* shared styles */
