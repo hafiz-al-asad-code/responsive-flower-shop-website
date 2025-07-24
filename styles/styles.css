@@ -245,6 +245,42 @@
   margin-right: auto;
 }
 
+/* join section */
+.join {
+  background-image: url("../images/news-letter-bg.png");
+  height: 533px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 23px;
+  color: white;
+}
+.join input {
+  padding: 15px 540px 15px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.subscribe-btn {
+  padding: 15px 50px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(233, 90, 8);
+  border: none;
+}
+.input-and-btn {
+  display: flex;
+  gap: 0;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
   /* shared styles */
