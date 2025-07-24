@@ -123,6 +123,30 @@
   text-align: center;
 }
 
+/* plants lover styles */
+.plants-lover {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  position:relative;
+}
+.plants-lover-left img:nth-child(2){
+  width:286px;
+  position:absolute;
+  top:-130px;
+  right:510px;
+}
+.plants-lover-title {
+  margin-bottom: 20px;
+  max-width:485px;
+}
+.plants-lover-subtitle{
+  margin-bottom:20px;
+}
+.plants-lover-description{
+  margin-left:33px;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
   /* shared styles */
