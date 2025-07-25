@@ -38,7 +38,7 @@
   padding: 19px 88px;
   border: none;
   color: white;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 /* nav styles */
@@ -147,6 +147,19 @@
 }
 .plants-lover-description {
   margin-left: 33px;
+}
+.lover-badge {
+  animation: lover-badge-animation 7s linear infinite;
+}
+
+/* animation for lover badge */
+@keyframes lover-badge-animation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* latest deals section */
@@ -276,6 +289,7 @@
   color: white;
   background-color: rgb(233, 90, 8);
   border: none;
+  cursor: pointer;
 }
 .input-and-btn {
   display: flex;
