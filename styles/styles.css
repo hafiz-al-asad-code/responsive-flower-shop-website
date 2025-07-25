@@ -111,9 +111,6 @@
   color: rgb(17, 17, 17);
   margin-bottom: 30px;
 }
-/* .plant-card button {
-  width: 100%;
-} */
 .our-plants-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -162,7 +159,7 @@
   }
 }
 
-/* latest deals section */
+/* latest deals styles */
 .left-image-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
     url("../images/deal-bloom.png");
@@ -218,7 +215,6 @@
   font-size: 16px;
   font-weight: 600;
   color: white;
-  /* text-decoration: underline; */
 }
 .left-image-2-title {
   font-size: 20px;
@@ -239,7 +235,6 @@
   font-size: 28px;
   font-weight: 600;
   color: white;
-  /* text-decoration: underline; */
 }
 .latest-deals-images-left {
   display: flex;
@@ -258,13 +253,12 @@
   margin-right: auto;
 }
 
-/* join section */
+/* join styles */
 .join {
   background-image: url("../images/news-letter-bg.png");
   height: 533px;
   background-repeat: no-repeat;
   background-size: cover;
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -306,22 +300,17 @@
 .footer-middle {
   display: flex;
   column-gap: 110.67px;
-  /* row-gap: 32px; */
 }
 .footer-middle-column-1 {
   list-style: none;
   display: flex;
   flex-direction: column;
-  /* grid-template-columns: repeat(2, auto); */
-  /* column-gap: 110.67px; */
   row-gap: 32px;
 }
 .footer-middle-column-2 {
   list-style: none;
   display: flex;
   flex-direction: column;
-  /* grid-template-columns: repeat(2, auto); */
-  /* column-gap: 110.67px; */
   row-gap: 32px;
 }
 .footer-contents {
@@ -346,10 +335,11 @@ footer {
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-  /* shared styles */
+  /* shared  */
   .section-subtitle {
     font-size: 14px;
   }
+
   /* nav */
   .navbar-items li:nth-child(1) a,
   .navbar-items li:nth-child(2) a,
@@ -400,8 +390,6 @@ footer {
   }
   .our-plants-cards {
     grid-template-columns: repeat(2, 1fr);
-    /* margin-left: 14px;
-    margin-right: 17px; */
     max-width: 362px;
     margin: auto;
   }
