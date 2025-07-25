@@ -35,7 +35,7 @@
 .btn-primary {
   font-weight: 600;
   background-color: rgb(233, 90, 8);
-  padding: 26px 50px;
+  padding: 19px 88px;
   border: none;
   color: white;
 }
@@ -110,9 +110,9 @@
   color: rgb(17, 17, 17);
   margin-bottom: 30px;
 }
-.plant-card button {
+/* .plant-card button {
   width: 100%;
-}
+} */
 .our-plants-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -215,7 +215,6 @@
   font-size: 16px;
   font-family: 600;
   color: white;
-  text-decoration: underline;
 }
 .right-image-title {
   font-size: 40px;
@@ -224,7 +223,7 @@
 }
 .right-image-subtitle {
   font-size: 28px;
-  font-family: 600;
+  font-family: 900;
   color: white;
   text-decoration: underline;
 }
@@ -270,7 +269,7 @@
   font-weight: 400;
 }
 .subscribe-btn {
-  padding: 15px 50px;
+  padding: 15px 53.5px;
   font-size: 16px;
   font-weight: 600;
   color: white;
@@ -283,17 +282,31 @@
 }
 
 /* footer styles */
-.links a {
+.footer-middle a {
   text-decoration: none;
   color: rgb(107, 114, 128);
   font-size: 16px;
   font-weight: 400;
 }
-.links {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+.footer-middle {
+  display: flex;
   column-gap: 110.67px;
+  /* row-gap: 32px; */
+}
+.footer-middle-column-1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(2, auto); */
+  /* column-gap: 110.67px; */
+  row-gap: 32px;
+}
+.footer-middle-column-2 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(2, auto); */
+  /* column-gap: 110.67px; */
   row-gap: 32px;
 }
 .footer-contents {
@@ -390,7 +403,7 @@ footer {
     margin-bottom: 30px;
   }
   .plant-card-button {
-    padding: 20px 30px;
+    padding: 19px 38px;
   }
 
   /* plants lover */
@@ -424,7 +437,7 @@ footer {
     flex-direction: column;
   }
   .latest-deals-images-right {
-    width: 366px;
+    width: 361px;
     height: 206px;
     border-radius: 10px;
     gap: 19px;
@@ -454,6 +467,12 @@ footer {
   .latest-deals {
     margin-bottom: 40px;
   }
+  .left-image-1 {
+    width: 361px;
+  }
+  .left-image-2 {
+    width: 361px;
+  }
 
   /* join */
   .join {
@@ -474,8 +493,9 @@ footer {
     flex-direction: column;
     gap: 20px;
   }
-  .links {
-    grid-template-columns: 1fr;
+  .footer-middle {
+    flex-direction: column;
+    gap: 20px;
   }
   footer {
     max-width: 359px;
